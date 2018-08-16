@@ -9,3 +9,10 @@ a{
 image{
     display: block;
 }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #D6D6D6;
+    font-family: "微软雅黑";
+}
+textarea{
+    resize: vertical;
+}

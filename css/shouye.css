@@ -188,19 +188,59 @@ section .section .sec2 .right{
 section .section .sec2 .right span{
     display: block;
 }
+section .section .sec2 .right .video{
+    display: none;
+    width: 1124px;
+    height: 504px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 99;
+    box-shadow: 0 0 500px 500px rgba(0, 0, 0, 0.6);
+    background-color: #E8E8E8;
+}
+section .section .sec2 .video .close{
+    width: 100%;
+    height: 28px;
+}
+section .section .sec2 .video .close i{
+    display: block;
+    float: right;
+    color: #EF4E29;
+    line-height: 28px;
+    margin-right: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+section .section .sec2 .right video{
+    width: 1124px;
+    height: 473px;
+    background-color: #000;
+}
 section .section .sec2 .right span:nth-child(1){
     font-size: 22px;
     font-weight: 700;
     margin-top: 50px;
+    cursor: pointer;
 }
 section .section .sec2 .right span:nth-child(2){
     font-size: 16px;
+    cursor: pointer;
 }
 section .section .sec2 .right span:nth-child(3){
     font-size: 24px;
     font-weight: 600;
     margin-top: 20px;
+    cursor: pointer;
 }
+
+
+
+
+/* 城建项目开始 */
 .tupian{
     width: 1269px;
     height: 248px;
@@ -208,18 +248,25 @@ section .section .sec2 .right span:nth-child(3){
     margin: 0 auto;
 }
 .tupian .tpbox{
-    width: 1259px;
-    height: 188px;
-    padding: 0 5px;
-    margin: 10px auto 0;
-}
-.tupian .tpbox .box{
     width: 1179px;
     height: 188px;
-    background-color: #EEEEEE;
-    padding: 0 40px;
-    margin: 0 auto;
+    padding: 0 45px;
+    margin: 10px auto 0;
     position: relative;
+}
+.tupian .tpbox .lunbo{
+    width: 1172px;
+    height: 188px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tupian .tpbox .box{
+    width: 3516px;
+    height: 188px;
+    background-color: #EEEEEE;
+    margin-left: 0;
+    position: relative;
+    transition: all 0.5s linear;
 }
 .tupian .tpbox .box .boxa{
     display: block;
@@ -238,7 +285,7 @@ section .section .sec2 .right span:nth-child(3){
 .tupian .tpbox .box .boxa:hover img{
     transform: scale(1.05,1.05);
 }
-.tupian .tpbox .box span{
+.tupian .tpbox span{
     display: block;
     width: 40px;
     height: 40px;
@@ -248,24 +295,20 @@ section .section .sec2 .right span:nth-child(3){
     top: 0;
     bottom: 0;
     margin: auto 0;
-    z-index: 2;
+    z-index: 100;
     color: #ffffff;
     background-color:#E02A1D ;
     opacity: 0.8;
 }
-.tupian .tpbox .box span:hover{
+.tupian .tpbox span:hover{
     opacity: 1;
 }
-.tupian .tpbox .box span:nth-of-type(1){
+.tupian .tpbox span:nth-of-type(1){
     left: 30px;
 }
-.tupian .tpbox .box span:nth-of-type(2){
+.tupian .tpbox span:nth-of-type(2){
     right: 40px;
 }
-
-
-
-
 .tupian .tpbox .box .boxa .pormpt{
     width: 293px;
     height: 188px;
@@ -304,6 +347,15 @@ section .section .sec2 .right span:nth-child(3){
 .tupian .tpbox .box .boxa .por a p:nth-child(2){
     float: right;
 }
+/* 城建项目结束 */
+
+
+
+
+
+
+
+
 .end{
     width: 1349px;
     height: 228px;
