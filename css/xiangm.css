@@ -202,12 +202,21 @@ section .box .right .box .box11 .img{
 }
 section .box .right .box .box11 img{
     width: 263px;
-    height: auto;
+    height: 144px;
     transition: transform 0.5s;
 }
 section .box .right .box .box11 .box12{
     width: 262px;
     height: 70px;
+}
+@keyframes active{
+    from{
+
+    }
+    to{
+        transform: translate(0, 10px);
+        font-size: 30px;
+    }
 }
 section .box .right .box .box11 .box12 h4{
     width: 251px;
@@ -218,6 +227,13 @@ section .box .right .box .box11 .box12 h4{
     font-weight: normal;
     margin: 0 auto;
     text-align: center;
+}
+section .box .right .box .box11:hover .box12 h4{
+    color: #ff6700;
+    animation: active 0.3s 0.1s linear forwards;
+}
+section .box .right .box .box11:hover .box12 span{
+    display: none;
 }
 section .box .right .box .box11 .box12 span{
     display: block;

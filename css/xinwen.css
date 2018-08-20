@@ -232,6 +232,7 @@ section .box .right .box .xinw1 .text{
     height: 104px;
     float: left;
     padding-right: 5px;
+    transition: all 0.3s linear;
 }
 section .box .right .box .xinw1 .text a{
     display: block;

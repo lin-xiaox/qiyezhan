@@ -21,7 +21,7 @@ console.log(prev)
 console.log(next)
 console.log(lunbo)
 var num=0;
-prev.onclick=function(){
+next.onclick=function(){
 	num++;
 	if(num>=2){
 		num=2;
@@ -29,7 +29,7 @@ prev.onclick=function(){
 	
 	lunbo.style.marginLeft = -1172*num+"px";
 }
-next.onclick=function(){
+prev.onclick=function(){
 	num--;
 	if(num<=0){
 		num=0;
